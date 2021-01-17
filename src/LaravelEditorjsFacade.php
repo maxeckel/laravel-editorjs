@@ -9,7 +9,7 @@ use Maxeckel\LaravelEditorjs\EditorJs\EditorJs;
 /**
  * @see \Maxeckel\LaravelEditorjs\LaravelEditorjs
  *
- * @method string getComponentName(Block $block, string $type)
+ * @method string getComponentName(Block $block, ?string $type = null)
  * @method EditorJs blocksFromArray(array $blocks)
  * @method EditorJs blocksFromJson(string $blocks)
  */

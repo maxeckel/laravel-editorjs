@@ -8,7 +8,7 @@ use Maxeckel\LaravelEditorjs\EditorJs\EditorJs;
 
 class LaravelEditorjs
 {
-    public function getComponentName(Block $block, string $type): string
+    public function getComponentName(Block $block, ?string $type = null): string
     {
         $resolver = app()->make(ComponentResolver::class);
 
