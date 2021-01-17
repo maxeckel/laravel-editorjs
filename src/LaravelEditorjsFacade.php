@@ -3,9 +3,15 @@
 namespace Maxeckel\LaravelEditorjs;
 
 use Illuminate\Support\Facades\Facade;
+use Maxeckel\LaravelEditorjs\Blocks\Block;
+use Maxeckel\LaravelEditorjs\EditorJs\EditorJs;
 
 /**
- * @see \Maxeckel\LaravelEditorjs\Skeleton\SkeletonClass
+ * @see \Maxeckel\LaravelEditorjs\LaravelEditorjs
+ *
+ * @method string getComponentName(Block $block, string $type)
+ * @method EditorJs blocksFromArray(array $blocks)
+ * @method EditorJs blocksFromJson(string $blocks)
  */
 class LaravelEditorjsFacade extends Facade
 {
